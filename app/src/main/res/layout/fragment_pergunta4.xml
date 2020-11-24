@@ -11,7 +11,7 @@
         android:id="@+id/textViewPergunta4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="4. Considerando seus rendimentos regulares, qual a porcentagem você  pretende reservar para aplicações nanceiras?"
+        android:text="4. Considerando seus rendimentos regulares, qual a porcentagem você  pretende reservar para aplicações financeiras?"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

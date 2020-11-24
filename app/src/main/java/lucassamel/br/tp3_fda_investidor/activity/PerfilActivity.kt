@@ -10,10 +10,6 @@ class PerfilActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil)
 
-        var usuarioNome = intent.getStringExtra("usuarioNome")
 
-        var pontuacao = 0
-
-        txtNomeUsuario.text = usuarioNome
     }
 }
