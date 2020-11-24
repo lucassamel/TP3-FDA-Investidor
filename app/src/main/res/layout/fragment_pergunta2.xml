@@ -28,32 +28,34 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewPergunta2">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButtonP2R1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Preservação do capital para não perder valor ao longo do tempo, assumindo baixos riscos de perdas" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/radioButtonP2R2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Aumento gradual do capital ao longo do tempo, assumindo riscos moderados" />
 
         <RadioButton
-            android:id="@+id/radioButton11"
+            android:id="@+id/radioButtonP2R3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas" />
 
         <RadioButton
-            android:id="@+id/radioButton12"
+            android:id="@+id/radioButtonP2R4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Obter no curto prazo retornos elevados e significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados" />
     </RadioGroup>
 
     <Button
