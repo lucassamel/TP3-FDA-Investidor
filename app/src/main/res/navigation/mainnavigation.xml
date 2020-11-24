@@ -18,5 +18,23 @@
         android:id="@+id/pergunta2Fragment"
         android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta2Fragment"
         android:label="fragment_pergunta2"
-        tools:layout="@layout/fragment_pergunta2" />
+        tools:layout="@layout/fragment_pergunta2" >
+        <action
+            android:id="@+id/action_pergunta2Fragment_to_pergunta3Fragment"
+            app:destination="@id/pergunta3Fragment" />
+    </fragment>
+    <activity
+        android:id="@+id/perfilActivity"
+        android:name="lucassamel.br.tp3_fda_investidor.activity.PerfilActivity"
+        android:label="activity_perfil"
+        tools:layout="@layout/activity_perfil" />
+    <fragment
+        android:id="@+id/pergunta3Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta3Fragment"
+        android:label="fragment_pergunta3"
+        tools:layout="@layout/fragment_pergunta3" >
+        <action
+            android:id="@+id/action_pergunta3Fragment_to_perfilActivity"
+            app:destination="@id/perfilActivity" />
+    </fragment>
 </navigation>
