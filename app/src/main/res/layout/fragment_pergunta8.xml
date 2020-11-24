@@ -1,14 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.Pergunta8Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textViewPergunta8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="8. Qual sua faixa de renda mensal média?"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPergunta8">
+
+        <RadioButton
+            android:id="@+id/radioButtonP8R1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Até R$ 1.000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonP8R2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="De R$ 1.001 até R$ 5.000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonP8R3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="De R$ 5.001 até R$ 10.000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonP8R4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acima de R$ 10.000" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonPergunta9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="próximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

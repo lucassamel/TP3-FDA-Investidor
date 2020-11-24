@@ -36,28 +36,28 @@
             android:layout_height="match_parent" >
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButtonP2R1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Preservação do capital para não perder valor ao longo do tempo, assumindo baixos riscos de perdas" />
 
             <RadioButton
                 android:id="@+id/radioButton5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Aumento gradual do capital ao longo do tempo, assumindo riscos moderados" />
 
             <RadioButton
-                android:id="@+id/radioButton6"
+                android:id="@+id/radioButtonP2R3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas" />
 
             <RadioButton
-                android:id="@+id/radioButton7"
+                android:id="@+id/radioButtonP2R4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Obter no curto prazo retornos elevados e signicativamente acima da taxa de retorno média do mercado, assumindo riscos elevados" />
         </RadioGroup>
     </LinearLayout>
 
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Button"
+        android:text="próximo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"

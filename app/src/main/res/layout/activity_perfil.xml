@@ -7,4 +7,60 @@
     android:layout_height="match_parent"
     tools:context=".activity.PerfilActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <TextView
+      android:id="@+id/textViewPontos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="228dp"
+      android:text="Pontos ->"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textViewTotalPontos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:layout_marginTop="228dp"
+      android:hint="Total de pontos"
+      android:text="TextView"
+      android:textSize="24sp"
+      app:layout_constraintStart_toEndOf="@+id/textViewPontos"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="32dp"
+      android:orientation="vertical"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewTotalPontos">
+
+    <TextView
+        android:id="@+id/textViewNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="<Nome Usuario>"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu pperfil é:"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPerfilUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="<perfil usuario>"
+        android:textSize="24sp" />
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
