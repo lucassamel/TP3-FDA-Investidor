@@ -34,7 +34,61 @@
         android:label="fragment_pergunta3"
         tools:layout="@layout/fragment_pergunta3" >
         <action
-            android:id="@+id/action_pergunta3Fragment_to_perfilActivity"
+            android:id="@+id/action_pergunta3Fragment_to_pergunta4Fragment"
+            app:destination="@id/pergunta4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pergunta4Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta4Fragment"
+        android:label="fragment_pergunta4"
+        tools:layout="@layout/fragment_pergunta4" >
+        <action
+            android:id="@+id/action_pergunta4Fragment_to_pergunta5Fragment"
+            app:destination="@id/pergunta5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pergunta5Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta5Fragment"
+        android:label="fragment_pergunta5"
+        tools:layout="@layout/fragment_pergunta5" >
+        <action
+            android:id="@+id/action_pergunta5Fragment_to_pergunta6Fragment"
+            app:destination="@id/pergunta6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pergunta6Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta6Fragment"
+        android:label="fragment_pergunta6"
+        tools:layout="@layout/fragment_pergunta6" >
+        <action
+            android:id="@+id/action_pergunta6Fragment_to_pergunta7Fragment"
+            app:destination="@id/pergunta7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pergunta7Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta7Fragment"
+        android:label="fragment_pergunta7"
+        tools:layout="@layout/fragment_pergunta7" >
+        <action
+            android:id="@+id/action_pergunta7Fragment_to_pergunta8Fragment"
+            app:destination="@id/pergunta8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pergunta8Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta8Fragment"
+        android:label="fragment_pergunta8"
+        tools:layout="@layout/fragment_pergunta8" >
+        <action
+            android:id="@+id/action_pergunta8Fragment_to_pergunta9Fragment"
+            app:destination="@id/pergunta9Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pergunta9Fragment"
+        android:name="lucassamel.br.tp3_fda_investidor.fragment.Pergunta9Fragment"
+        android:label="fragment_pergunta9"
+        tools:layout="@layout/fragment_pergunta9" >
+        <action
+            android:id="@+id/action_pergunta9Fragment_to_perfilActivity"
             app:destination="@id/perfilActivity" />
     </fragment>
 </navigation>
