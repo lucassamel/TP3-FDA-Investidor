@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             //Envia a informacao
             alterHomeActivit.putExtra("usuarioNome",nomeUsuario)
 
-            println(nomeUsuario.toString())
+            //println(nomeUsuario.toString())
 
             startActivity(alterHomeActivit)
         }
