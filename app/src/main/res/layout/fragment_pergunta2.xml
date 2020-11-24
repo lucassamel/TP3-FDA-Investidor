@@ -57,7 +57,7 @@
                 android:id="@+id/radioButtonP2R4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Obter no curto prazo retornos elevados e signicativamente acima da taxa de retorno média do mercado, assumindo riscos elevados" />
+                android:text="Obter no curto prazo retornos elevados e significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados" />
         </RadioGroup>
     </LinearLayout>
 
