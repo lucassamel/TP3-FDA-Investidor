@@ -9,57 +9,52 @@
 
     <TextView
         android:id="@+id/textViewPergunta2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:text="2. Qual o objetivo desse investimento? "
+        android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
+    <RadioGroup
+        android:id="@+id/radioGroup8"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPergunta2" >
+        app:layout_constraintTop_toBottomOf="@+id/textViewPergunta2">
 
-        <RadioGroup
+        <RadioButton
+            android:id="@+id/radioButton5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
 
-            <RadioButton
-                android:id="@+id/radioButtonP2R1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Preservação do capital para não perder valor ao longo do tempo, assumindo baixos riscos de perdas" />
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
 
-            <RadioButton
-                android:id="@+id/radioButton5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Aumento gradual do capital ao longo do tempo, assumindo riscos moderados" />
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
 
-            <RadioButton
-                android:id="@+id/radioButtonP2R3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas" />
-
-            <RadioButton
-                android:id="@+id/radioButtonP2R4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Obter no curto prazo retornos elevados e significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados" />
-        </RadioGroup>
-    </LinearLayout>
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+    </RadioGroup>
 
     <Button
         android:id="@+id/btnPergunta3"
@@ -68,7 +63,7 @@
         android:layout_marginTop="24dp"
         android:text="próximo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup8" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
